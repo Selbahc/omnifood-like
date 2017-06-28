@@ -1,0 +1,398 @@
+* {
+  margin: 0;
+}
+
+body {
+  color: #555;
+  font-family: 'Athiti', sans-serif;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+img {
+  width: 100%;
+}
+
+.img-container {
+  overflow: hidden;
+}
+
+.w90 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.green {
+  color: #119780;
+}
+
+a:visited {
+  color: inherit;
+}
+
+
+/*********************
+/*HEADER
+*********************/
+
+header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.6))), url(../../images/hero-blur.png);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../../images/hero-blur.png);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+header a {
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header a:hover {
+  border-bottom: 2px solid #119780;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+nav ul li:first-child a {
+  border-bottom: none;
+}
+
+nav ul li:first-child a:hover {
+  border-bottom: none;
+}
+
+.nav-text {
+  margin-top: 4%;
+}
+
+header img {
+  width: 40%;
+}
+
+.header-content-container p {
+  font-size: 4vw;
+}
+
+.header-content-container {
+  margin-top: 20vh;
+}
+
+header .button {
+  font-size: 1.3vw;
+  margin-top: 12%;
+}
+
+
+/*********************
+/*FEATURES
+*********************/
+
+.presentation {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 2vw;
+  font-style: italic;
+}
+
+.advantages {
+  text-align: justify;
+  padding: 2.5em 0;
+}
+
+.advantages p {
+  width: 90%;
+}
+
+.advantages-illustration {
+  width: 20%;
+}
+
+
+/*********************
+/*FAVORITE MEALS
+*********************/
+
+.favorite-meals .col {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+.favorite-meals .span-1-of-4 {
+  width: 25%;
+}
+
+.favorite-meals img {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.favorite-meals img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+
+/*********************
+/*HOW IT WORKS
+*********************/
+
+.how-it-works {
+  padding-bottom: 8em;
+  background-color: rgba(17, 151, 128, 0.1);
+}
+
+.simple-numbers {
+  border: 0.1em solid #119780;
+  border-radius: 50%;
+  color: #119780;
+  width: 2.5em;
+  height: 2.5em;
+  text-align: center;
+  display: inline-block;
+  line-height: 2.5em;
+  font-size: 2vw;
+  margin: 1em 0.5em;
+}
+
+.how-it-works p {
+  line-height: 6em;
+  font-size: 1.3vw;
+}
+
+.how-it-works img {
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 0.9;
+}
+
+.how-it-works img:hover {
+  opacity: 1;
+}
+
+
+/*********************
+/*CITIES
+*********************/
+
+.cities {
+  padding-bottom: 3em;
+}
+
+.cities img {
+  -webkit-transition: 2s;
+  transition: 2s;
+  border-radius: 0.5em;
+}
+
+.cities img:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  border-radius: 0.5em;
+}
+
+.twitter-link {
+  color: #119780;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #119780;
+  text-decoration-color: #119780;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.cities .fa {
+  color: #119780;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.twitter-link:hover {
+  color: inherit;
+}
+
+
+/*********************
+/*CUSTOMER TESTIMONIALS
+*********************/
+
+.customer-container {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6))), url(../../images/back-customers.jpg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6) rgba(255, 255, 255, 0.6)), url(../../images/back-customers.jpg);
+  background-attachment: fixed;
+  height: 70vh;
+}
+
+.testimonial {
+  text-align: justify;
+  width: 90%;
+  font-size: 1.5vw;
+  font-style: italic;
+}
+
+.customer-testimonials img {
+  border-radius: 50%;
+  width: 15%;
+  vertical-align: middle;
+}
+
+.signature {
+  padding-top: 2em;
+  font-size: 1vw;
+}
+
+.quote {
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+
+/*********************
+/*PRICING PLANS
+*********************/
+
+.pricing-container {
+  background-color: rgba(17, 151, 128, 0.1);
+  padding-bottom: 3em;
+}
+
+.prices {
+  color: #119780;
+  font-size: 2.5vw;
+  margin-bottom: 0;
+}
+
+.pricing-plans div p:nth-child(3) {
+  font-size: 0.8em;
+}
+
+.pricing-plans div:nth-child(3) .prices {
+  margin-bottom: 1.59em;
+}
+
+.pricing-plans ul {
+  list-style: none;
+  /* Remove list bullets */
+  padding: 0;
+  margin: 2em 0;
+}
+
+.pricing-plans li {
+  padding-left: 16px;
+}
+
+.pricing-plans li:before {
+  content: "✔";
+  padding-right: 8px;
+  color: #119780;
+}
+
+.pricing-plans div:nth-child(3) ul li:nth-child(3):before {
+  content: "×";
+  padding-right: 8px;
+  color: #119780;
+  font-weight: bold;
+}
+
+.pricing-plans .button {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.pricing-plans .plans {
+  background-color: rgba(17, 151, 128, 0.05);
+  border-radius: 3%;
+  padding: 1em;
+  width: 29.5%;
+}
+
+
+/*********************
+/*MAP & FORM
+*********************/
+
+.map-form-container {
+  position: relative;
+  height: 70vh;
+}
+
+#map {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.contact-form {
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.8);
+  right: 0;
+  left: 50%;
+  top: 0;
+  height: 100%;
+  padding: 0 2em;
+}
+
+#name, #email, #find-us {
+  width: 80%;
+  height: 3em;
+  line-height: 3em;
+  border: 0.1em solid #119780;
+  color: #119780;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#text {
+  width: 80%;
+  height: 6em;
+  border: 0.1em solid #119780;
+  color: #119780;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+/*********************
+/*FOOTER
+*********************/
+
+.footer-container {
+  background-color: rgb(80, 80, 80);
+  color: #119780;
+  text-align: center;
+  padding: 2em 0;
+}
+
+.social {
+  padding-top: 1em;
+}
+
+footer nav {
+  padding-bottom: 1em;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer a:hover {
+  color: #FFF;
+}
+
+footer hr {
+  border: 1px dashed #119780;
+  width: 100%;
+}
